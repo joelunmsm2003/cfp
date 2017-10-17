@@ -19,4 +19,11 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^login/', 'app.views.login'),
+    url(r'^reporte1/', 'app.views.reporte1'),
+    url(r'^reporte2/', 'app.views.reporte2'),
+    url(r'^reporte3/', 'app.views.reporte3'),
+    url(r'^reporte4/', 'app.views.reporte4'),
+    
 ]
+
